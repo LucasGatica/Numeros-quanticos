@@ -1,0 +1,195 @@
+*{
+    background-color: #E5E5E5;
+}
+header{
+    
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+header img{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+
+.botoes-inicio{
+    
+    
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20%;
+    text-align: center;
+    
+    
+}
+
+.comecar,.desistir{
+    width: 200px;
+    padding: 20px 50px;
+    background-color: black;
+    border: #0A3871 ;
+    color: #FFFFFF;
+    border-radius: 20px;
+    display: block;
+    margin-left:  auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: auto;
+    
+    
+}
+.novapalavra,.novojogo,.teclado,label{
+    width: 200px;
+    padding: 20px 50px;
+    
+    border-color:black;
+    color: black;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.forca{
+    margin-top: 5%; 
+    width: 100%; 
+    text-align: center;
+    position: relative;
+    margin-left: auto    ;
+    margin-right: auto;
+    
+}
+.forca canvas{
+    width: 54%;
+    
+}
+
+.botoes-jogo,.botoes-add{
+    
+    
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    text-align: center;
+    
+    
+}
+.novojogo,.desistir{
+    display: inline-block;
+}
+
+.add{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    
+    display: block;
+    resize: none;
+font-family: 'Inter';
+background: #E5E5E5;
+border: #E5E5E5;
+font-style: normal;
+
+font-weight: 220;
+font-size: 22px;
+line-height: 100%;
+}
+
+
+
+/*footer*/
+
+
+.pe img{
+    width: 20px;
+}
+.pe h1{
+
+        
+    display: inline;
+    margin-right: 15px;
+}
+.pe a{
+    color: black;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    padding: 40px 0;
+
+}
+.chutar{
+        
+    padding: 20px 50px;
+    background-color: #0A3871;
+    border: #0A3871 ;
+    color: #FFFFFF;
+    border-radius: 20px;
+    display: block;
+    
+    
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    }
+.teclado,label,.chutar{
+    display: none;
+}
+
+@media screen and (max-width:480px) {
+    header{
+        width: 100%;
+    }
+    .forca canvas{
+        margin-top: 10%;
+        width: 100%;
+        margin-right: auto;
+        margin-left: 5%;
+        
+    }
+    
+    .botoes-jogo,.botoes-add{
+    
+    
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20%;
+        text-align: center;
+        margin-bottom: 5%;
+        
+        
+    }
+  
+    .botoes-inicio{
+        margin-top: 70%;
+    }
+        label{
+        
+        display: block;
+    }
+   
+
+    .teclado,.chutar{
+        padding-right: 15%;
+        padding-left: 15%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        text-align: center;
+        width: 1px;
+        display: inline-block;
+        margin: auto;
+
+    }
+    footer{
+        margin-top: 45%;
+        text-align: center;
+        padding: 40px 0;
+    
+    }
+   
+
+}

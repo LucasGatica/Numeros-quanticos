@@ -112,10 +112,14 @@ line-height: 100%;
     margin-right: 15px;
 }
 .pe a{
+    
     color: black;
     text-decoration: none;
 }
 footer{
+    margin-bottom: 0px;
+    margin-top: 50px;
+    display: block;
     text-align: center;
     padding: 40px 0;
 

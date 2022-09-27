@@ -57,7 +57,7 @@ function camada(n){
     var voltar = document.querySelector(".outro");
     voltar.hidden=false;
     var tela = document.querySelector(".add")
-    tela.value= ("Distribuição eletrônica : \n " + distribuicaoEletronica)
+    tela.value= ("Distribuição eletrônica: \n " + distribuicaoEletronica)
     console.log("tem "+nEletronsInput+" eletrons e distri eletronica " + distribuicaoEletronica)
 
 }
